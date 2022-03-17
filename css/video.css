@@ -1,0 +1,145 @@
+/* 手机视频图片显示 */
+
+@media screen and (min-width: 0px) and (max-width: 425px) {
+    .video {
+        width: 100%;
+    }
+    .videotp {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .bf {
+        background-color: #ffffff;
+        padding: 5px 10px;
+    }
+    .bf h4 {
+        padding: 0px 5px;
+    }
+    .bf a {
+        float: right;
+    }
+    .bf1 {
+        /* border: 1px solid black; */
+        width: 100%;
+        padding: 5px;
+    }
+    .bf1 video {
+        width: 100%;
+        max-height: 500px;
+    }
+    .bf1 .js {
+        color: #858585;
+    }
+}
+
+
+/* 平板电脑视频图片显示 */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .video {
+        float: left;
+        padding: 3px;
+        padding-bottom: 0px;
+        width: 50%;
+        background-color: #f1f1f1;
+    }
+    .videotp {
+        width: 100%;
+    }
+    .bf {
+        background-color: #ffffff;
+        margin: 10px 30px;
+        padding: 5px 30px;
+    }
+    .bf h4 {
+        padding: 0px 5px;
+    }
+    .bf a {
+        float: right;
+    }
+    .bf1 {
+        /* border: 1px solid black; */
+        width: 100%;
+        padding: 5px;
+    }
+    .bf1 video {
+        width: 100%;
+        max-height: 500px;
+    }
+    .bf1 .js {
+        color: #858585;
+    }
+}
+
+
+/* 电脑视频图片显示 */
+
+@media screen and (min-width: 769px) and (max-width: 1439px) {
+    .video {
+        float: left;
+        padding: 5px;
+        width: 33.333%;
+        background-color: #f1f1f1;
+    }
+    .videotp {
+        width: 100%;
+    }
+    .bf {
+        background-color: #ffffff;
+        margin: 10px 100px;
+        padding: 5px 30px;
+    }
+    .bf h4 {
+        padding: 0px 5px;
+    }
+    .bf a {
+        float: right;
+    }
+    .bf1 {
+        /* border: 1px solid black; */
+        width: 75%;
+        padding: 5px;
+    }
+    .bf1 video {
+        width: 100%;
+        max-height: 500px;
+    }
+    .bf1 .js {
+        color: #858585;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .video {
+        float: left;
+        padding: 5px;
+        width: 25%;
+        background-color: #f1f1f1;
+    }
+    .videotp {
+        width: 100%;
+    }
+    .bf {
+        background-color: #ffffff;
+        margin: 10px 100px;
+        padding: 5px 30px;
+    }
+    .bf h4 {
+        padding: 0px 5px;
+    }
+    .bf a {
+        float: right;
+    }
+    .bf1 {
+        /* border: 1px solid black; */
+        width: 75%;
+        padding: 5px;
+    }
+    .bf1 video {
+        width: 100%;
+        max-height: 500px;
+    }
+    .bf1 .js {
+        color: #858585;
+    }
+}
